@@ -1,0 +1,9 @@
+{
+  "name": "Ubuntu 20.04 Driver Build",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [],
+  "postCreateCommand": "uname -a && lsb_release -a"
+}
